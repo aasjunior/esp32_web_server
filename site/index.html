@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Esp32</title>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <h1 class="text-body-emphasis">Esp32 Web Server</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            Meu servidor web com Esp32 e MicroSD Card Adapter
+          </p>
+          <div class="d-inline-flex gap-2 mb-5">
+            <button type="button" class="btn btn-primary" id="openModalBtn">
+              Abrir Modal
+            </button>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal com JavaScript</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Este é um modal estilizado com Bootstrap 5.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script src="bs/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
