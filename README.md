@@ -23,7 +23,7 @@ Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **Micr
 
 <table>
    <thead>
-      <th>Componente</th>
+      <th>Componentes</th>
       <th>Quantidade</th>
    </thead>
    <tbody>
