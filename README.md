@@ -1,6 +1,6 @@
 # Servidor Web com Esp32
 
-Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **MicroSD Card Adapter** para servir uma pagina **HTML**, estilizada com **Bootstrap** e **Javascript**, através da rede local.
+Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **MicroSD Card Adapter** para servir uma pagina **HTML**, estilizada com **Bootstrap** e **Javascript**, através da rede local. Para desenvolvimento do projeto foi utilizada a plataforma **PlatformIO** pelo **Visual Studio Code** e a linguagem de programação **C++**.
 
 <p align="center">
    <img src="https://img.shields.io/badge/PlatformIO-00979D?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO"/>
@@ -9,6 +9,22 @@ Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **Micr
    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
 </p>
 
+<br>
+
+### Sobre o PlatformIO
+
+O **PlatformIO** é um ambiente de desenvolvimento integrado (IDE) e um gerenciador de projetos para sistemas embarcados. Ele oferece suporte a diversas plataformas de hardware e frameworks, facilitando o desenvolvimento e a integração de firmware. Com o **PlatformIO**, os desenvolvedores podem aproveitar uma ampla gama de bibliotecas e ferramentas de compilação, tornando o processo de desenvolvimento mais eficiente e simplificado. Além disso, o **PlatformIO** pode ser integrado ao **Visual Studio Code**, oferecendo uma interface de usuário poderosa e funcionalidades avançadas de edição de código e de autocomplete.
+
+<img width='100' src='https://github.com/aasjunior/esp32_web_server/assets/61213599/94e62aec-3549-477f-82db-08087995edbc' alt='platformio'>
+
+### Sobre o ESP32
+
+O **ESP32** é um **microcontrolador** de baixo custo e alto desempenho, desenvolvido pela **Espressif Systems**. Ele possui conectividade **Wi-Fi** e **Bluetooth** integrada, tornando-o ideal para aplicações de **IoT** (Internet das Coisas). Com um processador **dual-core** e várias interfaces de comunicação, o **ESP32** é altamente versátil e pode ser utilizado em uma ampla gama de projetos, desde automação residencial até dispositivos conectados industriais. A robustez e a flexibilidade do **ESP32**, juntamente com seu suporte a múltiplos frameworks de desenvolvimento, como o **Arduino** e o **ESP-IDF**, o tornam uma escolha popular entre os desenvolvedores de sistemas embarcados.
+
+<img width='100' src='https://github.com/aasjunior/esp32_web_server/assets/61213599/3e1dfffe-fdc8-4408-9261-926fbe91929a' alt='Esp32'>
+
+<br>
+<br>
 
 ## Configuração do Ambiente
 
@@ -50,7 +66,7 @@ Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **Micr
    </tbody>
 </table>
 
-<br>
+<span style="display:block; height:0.5em;"></span>
 
 ### Instalação e Configuração
 
@@ -121,7 +137,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 └── 📄 platformio.ini
 ```
 
-<br>
+<span style="display:block; height:0.5em;"></span>
 
 - 📁 **include/**: Este diretório possui os arquivos de cabeçalho (`.h`) que definem as **interfaces** das classes de funções utilizadas no projeto.
    
@@ -148,7 +164,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     #endif
     ```
 
-    <br>
+    <span style="display:block; height:0.5em;"></span>
 
     - **Credentials.h**: Contém as credenciais de rede WiFi (`SSID` e senha), mantidas separadamente para fins de segurança.
  
@@ -159,7 +175,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     const char* password = "WIFI_PASSWORD";
     ```
     
-    <br>
+    <span style="display:block; height:0.5em;"></span>
 
     - **SDManager.h**: Declara a classe `SDManager`, responsável pelo gerenciamento do cartão SD.
  
@@ -185,7 +201,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     #endif
     ```
 
-    <br>
+    <span style="display:block; height:0.5em;"></span>
 
     - **WebServerManager.h**: Declara a classe `WebServerManager`, responsável pela configuração e execução do servidor web.
 
@@ -210,7 +226,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     #endif
     ```
 
-    <br>
+    <span style="display:block; height:0.5em;"></span>
 
     - **WiFiManager.h**: Declara a classe `WiFiManager`, responsável pelo gerenciamento da conexão WiFi.
  
@@ -237,8 +253,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     #endif
     ```
 
-<br>
-<br>
+<span style="display:block; height:0.5em;"></span>
 
 - 📁 **src/core**: Este diretório os arquivos de implementação (`.cpp`) das classes definidas nos arquivos de cabeçalho.
 
@@ -266,6 +281,19 @@ lib_deps =
     AsyncTCP
     WiFi
 ```
+
+## Tecnologias
+
+<br>
+
+<p align="center">
+   <img src="https://img.shields.io/badge/PlatformIO-00979D?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO"/>
+   <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
+   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
+   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+</p>
 
 ##
 **Aviso**
