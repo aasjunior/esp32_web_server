@@ -85,7 +85,12 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 
 6. Verifique se todas as dependências estão instaladas conforme especificado no `platformio.ini`.
 
-7. Configure o nome e a senha da rede **WiFi** no arquivo `Credentials.h`.
+7. Crie um arquivo `Credentials.h` dentro de `web_server/include` e insira o nome e a senha da sua rede **WiFi**:
+ 
+ ```c++
+ const char* ssid = "WIFI_SSID";
+ const char* password = "WIFI_PASSWORD";
+ ```
 
 8. Faça as conexões entre o **Esp32** e o modulo MicroSD como especificado abaixo:
 
