@@ -38,8 +38,8 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [
-    "E:/Projects/NodeMCU/hello_word/include",
-    "E:/Projects/NodeMCU/hello_word/src",
+    "E:/Projects/NodeMCU/web_server/include",
+    "E:/Projects/NodeMCU/web_server/src",
     "C:/Users/adeld/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
     "C:/Users/adeld/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
     "C:/Users/adeld/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
