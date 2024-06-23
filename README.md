@@ -1,6 +1,6 @@
 # Servidor Web com Esp32
 
-Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **MicroSD Card Adapter** para servir uma pagina **HTML**, estilzada com **Bootstrap** e **Javascript**, através da rede local.
+Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **MicroSD Card Adapter** para servir uma pagina **HTML**, estilizada com **Bootstrap** e **Javascript**, através da rede local.
 
 <p align="center">
    <img src="https://img.shields.io/badge/PlatformIO-00979D?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO"/>
@@ -50,7 +50,7 @@ Este projeto implementa um servidor web utilizando o **ESP32** e o modulo **Micr
    </tbody>
 </table>
 
-
+<br>
 
 ### Instalação e Configuração
 
@@ -77,6 +77,8 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     <img src='diagrama.png' alt='Diagrama de conexão' width='800'>
 </div>
 
+<br>
+
 ### Como Usar
 
 1. Compile e carregue o código para o **ESP32** utilizando o **PlatformIO**.
@@ -86,6 +88,11 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 3. Conecte-se na mesma rede **WiFi** do **ESP32**.
 
 4. Acesse o servidor web através do endereço **IP** exibido para acessar a página web salva no cartão SD.
+
+<div align='center'>
+   <img width='200' src='https://github.com/aasjunior/esp32_web_server/assets/61213599/1bc64a27-650b-4d32-9c97-fc9e1af60c9e' alt='Página Web'>
+</div>
+
 
 ### Observações
 
@@ -119,6 +126,8 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 - 📁 **include/**: Este diretório possui os arquivos de cabeçalho (`.h`) que definem as **interfaces** das classes de funções utilizadas no projeto.
    
     - **Enums.h**: Define as enumerações (`WiFiStatus` e `SDStatus`) utilizadas para representar o status da conexão WiFi e do cartão SD.
+ 
+      <span style="display:block; height:0.5em;"></span>
     
     ```c++
     #ifndef ENUMS_H
@@ -141,7 +150,9 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 
     <br>
 
-    - **Credentials.h**: Contém as credenciais de rede WiFi (`SSID` e senha), mantidas separadamente para fins de segurança. 
+    - **Credentials.h**: Contém as credenciais de rede WiFi (`SSID` e senha), mantidas separadamente para fins de segurança.
+ 
+      <span style="display:block; height:0.5em;"></span>
     
     ```c++
     const char* ssid = "WIFI_SSID";
@@ -151,6 +162,8 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     <br>
 
     - **SDManager.h**: Declara a classe `SDManager`, responsável pelo gerenciamento do cartão SD.
+ 
+      <span style="display:block; height:0.5em;"></span>
 
     ```c++
     #ifndef SD_MANAGER_H
@@ -176,6 +189,8 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 
     - **WebServerManager.h**: Declara a classe `WebServerManager`, responsável pela configuração e execução do servidor web.
 
+      <span style="display:block; height:0.5em;"></span>
+
     ```c++
     #ifndef WEB_SERVER_MANAGER_H
     #define WEB_SERVER_MANAGER_H
@@ -198,6 +213,8 @@ git clone https://github.com/aasjunior/esp32_web_server.git
     <br>
 
     - **WiFiManager.h**: Declara a classe `WiFiManager`, responsável pelo gerenciamento da conexão WiFi.
+ 
+      <span style="display:block; height:0.5em;"></span>
 
     ```c++
     #ifndef WIFI_MANAGER_H
@@ -251,6 +268,6 @@ lib_deps =
 ```
 
 ##
-##### Aviso
+**Aviso**
 
 Este é um projeto utilizado para fins acadêmicos e aprendizado com a placa de desenvolvimento **Esp32** e linguagem de programação **C++**.
