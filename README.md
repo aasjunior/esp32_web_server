@@ -303,4 +303,4 @@ lib_deps =
 ##
 **Aviso**
 
-Este é um projeto utilizado para fins acadêmicos e aprendizado com a placa de desenvolvimento **Esp32** e linguagem de programação **C++**.
+Este é um projeto utilizado para fins de aprendizado com a placa de desenvolvimento **Esp32** e linguagem de programação **C++**.
