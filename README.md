@@ -260,7 +260,7 @@ git clone https://github.com/aasjunior/esp32_web_server.git
 
 <span style="display:block; height:0.5em;"></span>
 
-- 📁 **src/core**: Este diretório os arquivos de implementação (`.cpp`) das classes definidas nos arquivos de cabeçalho.
+- 📁 **src/core**: Este diretório possui os arquivos de implementação (`.cpp`) das classes definidas nos arquivos de cabeçalho.
 
     - **SDManager.cpp**: Implementa os métodos da classe `SDManager` declarados em `SDManager.h`, como `begin()` e `listDir()`.
 
